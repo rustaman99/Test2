@@ -30,7 +30,7 @@ public class CSS {
         button4.sendKeys("Arm");
         Thread.sleep(4000);
         WebElement button5 = driver.findElement(By.cssSelector("[name*='telephone']"));
-        button5.sendKeys("ccccccc", Keys.ENTER);
+        button5.sendKeys("099", Keys.ENTER);
         Thread.sleep(4000);
         driver.quit();
     }
